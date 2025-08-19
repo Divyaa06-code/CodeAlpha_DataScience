@@ -1,5 +1,70 @@
 # CodeAlpha_DataScience
 
+# Iris Flower Classification 🌸
+
+This project uses the famous **Iris dataset** to train a machine
+learning model that can classify Iris flowers into three species: -
+Iris-setosa - Iris-versicolor - Iris-virginica
+
+## 📊 Dataset
+
+The dataset contains 150 samples with the following features: - Sepal
+Length (cm) - Sepal Width (cm) - Petal Length (cm) - Petal Width (cm)
+
+Target variable: - Species (Setosa, Versicolor, Virginica)
+
+## 🚀 Steps in the Project
+
+1.  Load the Iris dataset using **Scikit-learn** or CSV file.
+2.  Perform **data exploration and visualization** using pandas,
+    matplotlib, seaborn.
+3.  Split the dataset into **training and testing sets**.
+4.  Train classification models (e.g., Logistic Regression, Decision
+    Tree, Random Forest, SVM).
+5.  Evaluate the model using metrics such as **accuracy, confusion
+    matrix, classification report**.
+6.  Make predictions on new data.
+
+## ⚙️ Technologies Used
+
+-   Python 🐍
+-   Pandas
+-   NumPy
+-   Matplotlib & Seaborn
+-   Scikit-learn
+
+## 📈 Example Output
+
+-   Model Accuracy: \~95% (varies by algorithm)
+-   Confusion matrix and classification report
+-   Example prediction: *Input -\> \[5.1, 3.5, 1.4, 0.2\], Output -\>
+    Iris-setosa*
+
+## ▶️ How to Run
+
+1.  Clone the repository or copy the notebook.
+
+2.  Install dependencies:
+
+    ``` bash
+    pip install -r requirements.txt
+    ```
+
+3.  Open Jupyter Notebook:
+
+    ``` bash
+    jupyter notebook
+    ```
+
+4.  Run all cells to train and test the model.
+
+## 📌 Future Improvements
+
+-   Try different algorithms (KNN, Gradient Boosting, Neural Networks).
+-   Deploy the model as a **web app** using Flask or Streamlit.
+-   Hyperparameter tuning for better performance.
+
+
 # 🚗 Car Price Prediction using Machine Learning
 
 ## 📌 Project Overview
